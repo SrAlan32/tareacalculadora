@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+
+    <div class="calculadora">
+
+        <div class="inicio">
+
+            <div class="pantalla">
+                <input type="text" id="input" placeholder="0" disabled>
+            </div>
+
+            <div class="botones">
+
+                <button id="clear" class="operation-button">AC</button>
+                <button id="erase" class="operation-button">DEL</button>
+                <button class="operation-button">/</button>
+                <button class="operation-button">*</button>
+                <button class="operation-button">-</button>
+
+                <button class="digit-button">7</button>
+                <button class="digit-button">8</button>
+                <button class="digit-button">9</button>
+                <button class="operation-button">+</button>
+                <button id="equal">=</button>
+
+                <button class="digit-button">4</button>
+                <button class="digit-button">5</button>
+                <button class="digit-button">6</button>
+
+                <button class="digit-button">1</button>
+                <button class="digit-button">2</button>
+                <button class="digit-button">3</button>
+
+                <button id="zero" class="digit-button">0</button>
+                <button class="digit-button">.</button>
+
+            </div>
+
+        </div>
+
+        <div class="historial">
+            <h2 id="TituloHistorial">Historial</h2>
+            <div id="historialContenido"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
